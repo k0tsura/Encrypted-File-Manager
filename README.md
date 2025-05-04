@@ -1,34 +1,35 @@
-# Encrypted-File-Manager – Windows Forms App
-Цей репозиторій містить застосунок на Windows Forms, створений на мові C#. Програма реалізує авторизацію користувачів, створення та видалення облікових записів, а також роботу з файлами.
+# Coursework1 – Windows Forms Application
 
-## 🔧 Функціонал
+This repository contains a Windows Forms application developed in C#. The program provides user authentication, user account management, and file operations.
 
-- Авторизація користувачів
-- Створення та видалення користувачів
-- Панель адміністратора
-- Робота з шифруванням/дешифруванням (можливо через `DESKey.txt`)
-- Збереження налаштувань через `App.config`
+## Features
 
-## 🛠️ Технології
+- User login and authorization
+- Create and delete user accounts
+- Admin panel interface
+- File operations with possible encryption support (via `DESKey.txt`)
+- Application settings managed via `App.config`
 
-- .NET Framework / Windows Forms
-- Мова програмування: C#
-- Visual Studio (проєктні файли: `.sln`, `.csproj`)
+## Technologies
 
-## 📁 Структура
+- Windows Forms (.NET Framework)
+- Programming Language: C#
+- Visual Studio (Project and Solution files: `.sln`, `.csproj`)
 
-- `*.cs` – основні класи та логіка форм
-- `*.Designer.cs` – розмітка елементів форм
-- `*.resx` – ресурси форм
-- `App.config` – конфігурація застосунку
-- `*.txt` – допоміжні файли (наприклад, ключі або тестові дані)
+## Project Structure
 
-## 🚀 Запуск
+- `*.cs` – Main logic and form classes
+- `*.Designer.cs` – UI layout definitions for forms
+- `*.resx` – Resource files for forms
+- `App.config` – Application configuration
+- `*.txt` – Auxiliary files (such as keys or sample data)
 
-1. Відкрийте проєкт через **Visual Studio** (`coursework.sln`)
-2. Встановіть цільову версію .NET Framework (якщо буде потрібно)
-3. Зберіть та запустіть застосунок
+## Getting Started
 
-## 📜 Ліцензія
+1. Open the project in **Visual Studio** using `coursework.sln`
+2. Ensure the correct version of the .NET Framework is installed
+3. Build and run the application
 
-Цей проєкт є навчальним і використовується з освітньою метою. Ліцензію не вказано.
+## License
+
+This project is intended for educational use and does not specify a license.
